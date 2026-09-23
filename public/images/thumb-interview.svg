@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="100%" height="100%">
+  <rect width="400" height="225" fill="#0b0d0f"/>
+  <circle cx="200" cy="95" r="38" fill="#15181c" stroke="#343a42" stroke-width="2"/>
+  <path d="M 120 210 Q 200 145 280 210 Z" fill="#20242a"/>
+  <!-- Amber light beam detail -->
+  <polygon points="40,0 200,80 160,225 0,225" fill="rgba(199,154,85,0.08)"/>
+  <rect x="30" y="170" width="180" height="24" rx="2" fill="rgba(52,58,66,0.6)"/>
+</svg>

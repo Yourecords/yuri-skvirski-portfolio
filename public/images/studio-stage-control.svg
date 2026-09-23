@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <rect width="1600" height="900" fill="#0b0d0f"/>
+  
+  <!-- Multiview Screen Grid Layout -->
+  <!-- Program (PGM) On Air (2% Red Accent) -->
+  <g transform="translate(60, 60)">
+    <rect width="680" height="380" rx="4" fill="#15181c" stroke="#c72732" stroke-width="3"/>
+    <text x="24" y="44" fill="#c72732" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="bold">● PROGRAM (PGM) - ON AIR</text>
+    <rect x="20" y="320" width="300" height="40" rx="2" fill="rgba(199,39,50,0.2)"/>
+    <circle cx="340" cy="200" r="70" fill="#20242a"/>
+  </g>
+
+  <!-- Preview (PVW) -->
+  <g transform="translate(780, 60)">
+    <rect width="680" height="380" rx="4" fill="#15181c" stroke="#343a42" stroke-width="2"/>
+    <text x="24" y="44" fill="#f4f2ed" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="bold">PREVIEW (PVW) - NEXT</text>
+    <circle cx="280" cy="200" r="60" fill="#20242a"/>
+    <circle cx="440" cy="200" r="60" fill="#20242a"/>
+  </g>
+
+  <!-- ISO Cameras 1-4 Row Below -->
+  <g transform="translate(60, 480)">
+    <rect x="0" y="0" width="320" height="180" rx="3" fill="#15181c" stroke="#c72732" stroke-width="2"/>
+    <text x="12" y="26" fill="#c72732" font-family="'JetBrains Mono', monospace" font-size="14">CAM 1 [CLOSE-UP]</text>
+    
+    <rect x="360" y="0" width="320" height="180" rx="3" fill="#15181c" stroke="#343a42" stroke-width="1.5"/>
+    <text x="372" y="26" fill="#a7adb5" font-family="'JetBrains Mono', monospace" font-size="14">CAM 2 [WIDE SET]</text>
+    
+    <rect x="720" y="0" width="320" height="180" rx="3" fill="#15181c" stroke="#343a42" stroke-width="1.5"/>
+    <text x="732" y="26" fill="#a7adb5" font-family="'JetBrains Mono', monospace" font-size="14">CAM 3 [GUEST 2]</text>
+    
+    <rect x="1080" y="0" width="320" height="180" rx="3" fill="#15181c" stroke="#343a42" stroke-width="1.5"/>
+    <text x="1092" y="26" fill="#a7adb5" font-family="'JetBrains Mono', monospace" font-size="14">GFX 1 [LOWER THIRDS]</text>
+  </g>
+
+  <!-- Audio Meters Right Bar (Occasional amber detail) -->
+  <g transform="translate(1480, 480)">
+    <rect x="0" y="0" width="20" height="180" fill="#15181c" stroke="#343a42"/>
+    <rect x="2" y="60" width="16" height="118" fill="#343a42"/>
+    <rect x="2" y="30" width="16" height="28" fill="#c79a55"/>
+    <rect x="2" y="6" width="16" height="22" fill="#c72732"/>
+
+    <rect x="26" y="0" width="20" height="180" fill="#15181c" stroke="#343a42"/>
+    <rect x="28" y="70" width="16" height="108" fill="#343a42"/>
+    <rect x="28" y="35" width="16" height="33" fill="#c79a55"/>
+    <rect x="28" y="8" width="16" height="25" fill="#c72732"/>
+  </g>
+
+  <!-- Status Bar -->
+  <g transform="translate(60, 700)">
+    <text x="0" y="30" fill="#a7adb5" font-family="'JetBrains Mono', monospace" font-size="16">GENLOCK: LOCKED | SDI-12G SYNC | AUDIO CH1/2: -18dBFS | LTC 10:24:59:18</text>
+  </g>
+
+  <text x="800" y="860" text-anchor="middle" fill="#a7adb5" font-family="'Manrope', sans-serif" font-size="20" letter-spacing="2">STAGE 04: CONTROL-ROOM LIVE SWITCHER MULTIVIEW &amp; SYNCHRONIZED ISO MONITORING</text>
+</svg>

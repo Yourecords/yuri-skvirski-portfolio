@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="100%" height="100%">
+  <rect width="400" height="225" fill="#0b0d0f"/>
+  <path d="M 80 200 L 120 130 L 160 145" fill="none" stroke="#343a42" stroke-width="4"/>
+  <rect x="150" y="135" width="28" height="16" rx="3" fill="#c72732"/>
+  
+  <path d="M 320 200 L 280 130 L 240 145" fill="none" stroke="#343a42" stroke-width="4"/>
+  <rect x="222" y="135" width="28" height="16" rx="3" fill="#c72732"/>
+
+  <!-- Waveform (Muted Gray Typography tone) -->
+  <g stroke="#a7adb5" stroke-width="3" opacity="0.4">
+    <line x1="160" y1="70" x2="160" y2="90"/>
+    <line x1="175" y1="55" x2="175" y2="105"/>
+    <line x1="190" y1="45" x2="190" y2="115"/>
+    <line x1="205" y1="60" x2="205" y2="100"/>
+    <line x1="220" y1="50" x2="220" y2="110"/>
+    <line x1="235" y1="65" x2="235" y2="95"/>
+  </g>
+</svg>

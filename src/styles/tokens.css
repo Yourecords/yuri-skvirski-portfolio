@@ -1,0 +1,90 @@
+/* ==========================================================================
+   DESIGN TOKENS - YURI SKVIRSKI PORTFOLIO
+   Strict Balance:
+   - 70% cinematic black (--color-bg: #0b0d0f)
+   - 20% charcoal and graphite (--color-bg-secondary: #15181c, --color-surface: #20242a, --color-border: #343a42)
+   - 8% white and gray typography (--color-text: #f4f2ed, --color-text-muted: #a7adb5)
+   - 2% red accent (--color-accent: #c72732, --color-accent-hover: #e13b45)
+   - Amber only for occasional premium details (--color-detail: #c79a55)
+   ========================================================================== */
+
+:root {
+  /* Core Palette */
+  --color-bg: #0b0d0f;
+  --color-bg-secondary: #15181c;
+  --color-surface: #20242a;
+  --color-text: #f4f2ed;
+  --color-text-muted: #a7adb5;
+  --color-border: #343a42;
+  --color-accent: #c72732;
+  --color-accent-hover: #e13b45;
+  --color-detail: #c79a55;
+
+  /* Aliases for Semantic Compatibility */
+  --bg-main: var(--color-bg);
+  --bg-surface: var(--color-bg-secondary);
+  --bg-surface-elevated: var(--color-surface);
+  --bg-surface-hover: #262c34;
+  --bg-subtle: #08090b;
+
+  --text-primary: var(--color-text);
+  --text-secondary: var(--color-text-muted);
+  --text-tertiary: #757d87;
+  --text-inverse: var(--color-bg);
+
+  --broadcast-red: var(--color-accent);
+  --broadcast-red-hover: var(--color-accent-hover);
+  --broadcast-red-glow: rgba(199, 39, 50, 0.25);
+  --broadcast-amber: var(--color-detail);
+  --broadcast-amber-glow: rgba(199, 154, 85, 0.2);
+
+  --border-subtle: var(--color-border);
+  --border-medium: rgba(52, 58, 66, 0.85);
+  --border-focus: rgba(244, 242, 237, 0.35);
+  --border-accent: rgba(199, 39, 50, 0.5);
+
+  /* Typography */
+  --font-editorial: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  /* Typography Scale */
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 2rem;       /* 32px */
+  --text-4xl: 2.5rem;     /* 40px */
+  --text-5xl: 3.25rem;    /* 52px */
+  --text-6xl: 4.25rem;    /* 68px */
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Layout */
+  --max-width-site: 1280px;
+  --max-width-reading: 720px;
+  --header-height: 72px;
+
+  /* Transitions */
+  --transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.7);
+  --shadow-glow-red: 0 0 20px var(--broadcast-red-glow);
+}

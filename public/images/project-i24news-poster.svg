@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <linearGradient id="i24-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0d0f"/>
+      <stop offset="60%" stop-color="#15181c"/>
+      <stop offset="100%" stop-color="#0b0d0f"/>
+    </linearGradient>
+    <linearGradient id="promo-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c72732"/>
+      <stop offset="100%" stop-color="#7a141b"/>
+    </linearGradient>
+  </defs>
+  <!-- 70% Cinematic Black -->
+  <rect width="1920" height="1080" fill="url(#i24-bg)"/>
+  
+  <!-- Video Grid Walls (20% Charcoal & Graphite) -->
+  <g opacity="0.35">
+    <rect x="120" y="160" width="380" height="220" rx="4" fill="#15181c" stroke="#343a42" stroke-width="2"/>
+    <rect x="540" y="160" width="380" height="220" rx="4" fill="#15181c" stroke="#343a42" stroke-width="2"/>
+    <rect x="960" y="160" width="380" height="220" rx="4" fill="#15181c" stroke="#343a42" stroke-width="2"/>
+    <rect x="1380" y="160" width="380" height="220" rx="4" fill="#15181c" stroke="#343a42" stroke-width="2"/>
+    
+    <rect x="120" y="420" width="380" height="220" rx="4" fill="#20242a" stroke="#343a42" stroke-width="2"/>
+    <rect x="540" y="420" width="380" height="220" rx="4" fill="#20242a" stroke="#343a42" stroke-width="2"/>
+    <rect x="960" y="420" width="380" height="220" rx="4" fill="#20242a" stroke="#343a42" stroke-width="2"/>
+    <rect x="1380" y="420" width="380" height="220" rx="4" fill="#20242a" stroke="#343a42" stroke-width="2"/>
+  </g>
+
+  <!-- Editorial Promo Typography & Branding Graphic -->
+  <g transform="translate(180, 720)">
+    <rect x="0" y="0" width="800" height="120" rx="2" fill="rgba(21, 24, 28, 0.94)" stroke="#343a42" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="120" fill="url(#promo-grad)"/>
+    <text x="36" y="52" fill="#f4f2ed" font-family="'Manrope', sans-serif" font-size="34" font-weight="800" letter-spacing="2">i24NEWS GLOBAL BROADCAST PROMOS</text>
+    <text x="36" y="90" fill="#a7adb5" font-family="'Inter', sans-serif" font-size="20">Campaign Direction • Channel Branding • High-Turnaround Launch Packages</text>
+  </g>
+
+  <!-- Control Room Video Switcher Surface -->
+  <rect x="0" y="940" width="1920" height="140" fill="#0b0d0f" stroke="#343a42" stroke-width="2"/>
+  <!-- Switcher Buttons Grid -->
+  <g fill="#20242a" stroke="#343a42">
+    <circle cx="200" cy="980" r="14" fill="#c72732"/>
+    <circle cx="250" cy="980" r="14"/>
+    <circle cx="300" cy="980" r="14"/>
+    <circle cx="350" cy="980" r="14"/>
+    <circle cx="400" cy="980" r="14"/>
+    <circle cx="200" cy="1025" r="14"/>
+    <circle cx="250" cy="1025" r="14" fill="#343a42"/>
+    <circle cx="300" cy="1025" r="14"/>
+    <circle cx="350" cy="1025" r="14"/>
+    <circle cx="400" cy="1025" r="14"/>
+  </g>
+  <!-- Timecode Display -->
+  <text x="1600" y="1010" fill="#c72732" font-family="'JetBrains Mono', monospace" font-size="30" font-weight="bold" letter-spacing="4">01:14:28:12</text>
+</svg>

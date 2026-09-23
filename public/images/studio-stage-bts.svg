@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <rect width="1600" height="900" fill="#0c0e14"/>
+  <!-- Key Light Beam from Top Left -->
+  <polygon points="200,80 750,550 500,750 150,200" fill="rgba(217, 119, 6, 0.12)"/>
+  <!-- Boom mic pole from top right -->
+  <line x1="1500" y1="120" x2="900" y2="420" stroke="#4b5563" stroke-width="6"/>
+  <rect x="880" y="410" width="30" height="15" rx="3" fill="#111827"/>
+
+  <!-- Talent on Set -->
+  <circle cx="780" cy="460" r="36" fill="#2d3748"/>
+  <rect x="730" y="500" width="100" height="180" rx="6" fill="#1e2533"/>
+  <circle cx="980" cy="480" r="34" fill="#242c3b"/>
+  <rect x="935" y="520" width="90" height="160" rx="6" fill="#1a202c"/>
+
+  <!-- Camera Operators in Foreground Silhouette -->
+  <!-- Cam Op 1 Left -->
+  <circle cx="360" cy="620" r="38" fill="#151922"/>
+  <rect x="300" y="665" width="120" height="235" fill="#11141b"/>
+  <rect x="420" y="580" width="140" height="90" rx="6" fill="#1e2430" stroke="#374151" stroke-width="3"/>
+
+  <!-- Director / Supervisor in Center Floor checking wireless client monitor -->
+  <circle cx="1250" cy="560" r="36" fill="#151922"/>
+  <rect x="1190" y="605" width="120" height="295" fill="#11141b"/>
+  <!-- Handheld Director Monitor -->
+  <rect x="1140" y="590" width="90" height="60" rx="4" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="1148" y="598" width="74" height="44" fill="#0284c7" opacity="0.4"/>
+
+  <text x="800" y="860" text-anchor="middle" fill="#64748b" font-family="'Manrope', sans-serif" font-size="20" letter-spacing="2">STAGE 02: ACTIVE PRODUCTION WORKFLOW — CREW, LIGHTING & TALENT ON SET</text>
+</svg>

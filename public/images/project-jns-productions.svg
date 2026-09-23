@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <linearGradient id="jns-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0d0f"/>
+      <stop offset="50%" stop-color="#15181c"/>
+      <stop offset="100%" stop-color="#0b0d0f"/>
+    </linearGradient>
+  </defs>
+  <!-- 70% Cinematic Black -->
+  <rect width="1920" height="1080" fill="url(#jns-bg)"/>
+  
+  <!-- Jerusalem Studio Acoustic Panel Backdrop (20% Charcoal & Graphite) -->
+  <g stroke="#20242a" stroke-width="8" opacity="0.8">
+    <line x1="200" y1="200" x2="200" y2="800"/>
+    <line x1="240" y1="200" x2="240" y2="800"/>
+    <line x1="280" y1="200" x2="280" y2="800"/>
+    <line x1="320" y1="200" x2="320" y2="800"/>
+    <line x1="360" y1="200" x2="360" y2="800"/>
+    <line x1="400" y1="200" x2="400" y2="800"/>
+  </g>
+
+  <!-- Studio Interview Table & Microphones -->
+  <path d="M 600 680 L 1320 680 L 1260 820 L 660 820 Z" fill="#15181c" stroke="#343a42" stroke-width="3"/>
+  <path d="M 780 680 L 800 580 L 850 600" fill="none" stroke="#a7adb5" stroke-width="4" stroke-linecap="round"/>
+  <rect x="840" y="590" width="36" height="20" rx="3" fill="#20242a" stroke="#343a42" stroke-width="1.5"/>
+  
+  <path d="M 1140 680 L 1120 580 L 1070 600" fill="none" stroke="#a7adb5" stroke-width="4" stroke-linecap="round"/>
+  <rect x="1045" y="590" width="36" height="20" rx="3" fill="#20242a" stroke="#343a42" stroke-width="1.5"/>
+
+  <!-- Lower Third Broadcast Graphic Frame -->
+  <g transform="translate(180, 840)">
+    <rect x="0" y="0" width="860" height="110" rx="4" fill="rgba(21, 24, 28, 0.94)" stroke="#343a42" stroke-width="2"/>
+    <rect x="0" y="0" width="6" height="110" fill="#c72732"/>
+    <text x="32" y="48" fill="#f4f2ed" font-family="'Manrope', sans-serif" font-size="30" font-weight="700" letter-spacing="1.5">JNS JERUSALEM STUDIO PRODUCTIONS</text>
+    <text x="32" y="84" fill="#a7adb5" font-family="'Inter', sans-serif" font-size="19">Interviews • Panel Discussions • Podcasts • Commentary Programs</text>
+  </g>
+
+  <!-- Live Multi-Camera Safe Margins -->
+  <rect x="140" y="90" width="1640" height="900" fill="none" stroke="rgba(244, 242, 237, 0.12)" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <circle cx="960" cy="540" r="12" fill="none" stroke="rgba(244, 242, 237, 0.3)"/>
+</svg>

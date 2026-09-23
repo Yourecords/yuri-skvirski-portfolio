@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="onair-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0d0f"/>
+      <stop offset="45%" stop-color="#15181c"/>
+      <stop offset="100%" stop-color="#0b0d0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#onair-bg)"/>
+
+  <!-- Talent Contour & Lighting -->
+  <g transform="translate(680, 220)">
+    <ellipse cx="140" cy="180" rx="140" ry="180" fill="rgba(199,154,85,0.08)"/>
+    <circle cx="140" cy="160" r="90" fill="#20242a" stroke="#343a42" stroke-width="2"/>
+    <path d="M 0 460 Q 140 280 280 460 Z" fill="#15181c" stroke="#343a42" stroke-width="2"/>
+  </g>
+
+  <!-- Studio Desk Surface -->
+  <path d="M 200 680 L 1400 680 L 1320 800 L 280 800 Z" fill="#15181c" stroke="#343a42" stroke-width="3"/>
+  <line x1="200" y1="680" x2="1400" y2="680" stroke="#343a42" stroke-width="2"/>
+
+  <!-- On-Air Lower-Third Graphics Package -->
+  <g transform="translate(140, 680)">
+    <rect x="0" y="0" width="760" height="85" rx="3" fill="rgba(21, 24, 28, 0.95)" stroke="#343a42" stroke-width="2"/>
+    <rect x="0" y="0" width="6" height="85" fill="#c72732"/>
+    <text x="32" y="38" fill="#f4f2ed" font-family="'Manrope', sans-serif" font-size="26" font-weight="800" letter-spacing="1.5">JERUSALEM EDITORIAL PERSPECTIVES</text>
+    <text x="32" y="66" fill="#a7adb5" font-family="'Inter', sans-serif" font-size="16">LIVE BROADCAST • JNS JERUSALEM PRODUCTION FACILITY</text>
+    <!-- Live Bug (2% Red Accent) -->
+    <rect x="660" y="24" width="74" height="34" rx="2" fill="#c72732"/>
+    <text x="697" y="47" text-anchor="middle" fill="#ffffff" font-family="'Manrope', sans-serif" font-size="14" font-weight="bold">LIVE</text>
+  </g>
+
+  <rect x="100" y="60" width="1400" height="780" fill="none" stroke="rgba(244,242,237,0.08)" stroke-width="1.5"/>
+
+  <text x="800" y="860" text-anchor="middle" fill="#a7adb5" font-family="'Manrope', sans-serif" font-size="20" letter-spacing="2">STAGE 05: FINISHED ON-AIR BROADCAST MASTER — LIGHTING CONTRAST, COMPOSITION &amp; BRANDING</text>
+</svg>
