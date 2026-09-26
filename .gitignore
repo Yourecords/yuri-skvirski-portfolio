@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Private build credentials and generated Drive downloads
+.env
+.env.*
+!.env.example
+*service-account*.json
+public/drive-media/
+public/.drive-media-staging/
+src/data/drive-media.generated.json

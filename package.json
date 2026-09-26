@@ -6,10 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "media:sync": "node scripts/sync-drive-media.js",
+    "prebuild": "node scripts/sync-drive-media.js --optional",
+    "test": "node --test"
   },
   "devDependencies": {
+    "google-auth-library": "^11.1.0",
     "pdf-lib": "^1.17.1",
     "vite": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

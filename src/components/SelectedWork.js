@@ -105,7 +105,7 @@ export function renderSelectedWork(data) {
               <div class="episodes-container">
                 <div class="episodes-grid">
                   ${jnsStudioProject.episodes.map(ep => `
-                    <div class="episode-card" data-title="${ep.title}">
+                    <div class="episode-card" data-title="${ep.title}" data-video-url="${ep.videoUrl || ''}">
                       <div class="episode-thumb-frame">
                         <img src="${ep.thumb}" alt="${ep.title}" loading="lazy"/>
                         <span class="episode-duration">${ep.duration}</span>

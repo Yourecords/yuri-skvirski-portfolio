@@ -56,6 +56,18 @@ export function initVideoModal() {
     closeBtn.focus();
   }
 
+  function openLocalVideo(title, url) {
+    openModal(title, '');
+    const video = document.createElement('video');
+    video.src = url;
+    video.controls = true;
+    video.playsInline = true;
+    video.autoplay = true;
+    video.preload = 'metadata';
+    video.style.cssText = 'width:100%;height:100%;object-fit:contain';
+    modalViewport.append(video);
+  }
+
   // Bind close events
   closeBtn.addEventListener('click', closeModal);
   modal.addEventListener('click', (e) => {
@@ -74,6 +86,10 @@ export function initVideoModal() {
       const videoType = btn.dataset.videoType;
       const title = btn.dataset.title || 'Video Player';
 
+      if (/\.(mp4|webm)(?:[?#]|$)/i.test(btn.dataset.videoUrl || '')) {
+        openLocalVideo(title, btn.dataset.videoUrl);
+        return;
+      }
       if (videoType === 'hero_showreel') {
         const simulatedReelHtml = `
           <div class="simulated-reel-view">
@@ -121,6 +137,10 @@ export function initVideoModal() {
   document.querySelectorAll('.episode-card').forEach(card => {
     card.addEventListener('click', () => {
       const epTitle = card.dataset.title;
+      if (card.dataset.videoUrl) {
+        openLocalVideo(epTitle, card.dataset.videoUrl);
+        return;
+      }
       const sampleUrl = 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ';
       const iframeHtml = `
         <iframe 
