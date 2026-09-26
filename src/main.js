@@ -9,6 +9,8 @@ import './styles/components.css';
 import './styles/responsive.css';
 
 import { portfolioData } from './data/portfolio-data.js';
+import { applyDriveMedia } from './data/drive-media.js';
+applyDriveMedia(portfolioData);
 
 import { renderHeader, initHeader } from './components/Header.js';
 import { renderHero } from './components/Hero.js';

@@ -1,0 +1,23 @@
+{
+  "hero.media.posterImage": "hero-poster.jpg",
+  "hero.media.videoUrl": "hero-reel.mp4",
+  "about.portraitImage": "portrait.jpg",
+  "studioCapability.media.image": "studio-bts.jpg",
+  "selectedWork.projects.0.posterImage": "i24news-poster.jpg",
+  "selectedWork.projects.0.videoEmbedUrl": "i24news-reel.mp4",
+  "selectedWork.projects.1.posterImage": "jns-poster.jpg",
+  "selectedWork.projects.1.videoEmbedUrl": "jns-reel.mp4",
+  "selectedWork.projects.2.caseStudy.stages.0.image": "studio-wide.jpg",
+  "selectedWork.projects.2.caseStudy.stages.1.image": "studio-bts.jpg",
+  "selectedWork.projects.2.caseStudy.stages.2.image": "studio-rig.jpg",
+  "selectedWork.projects.2.caseStudy.stages.3.image": "studio-control.jpg",
+  "selectedWork.projects.2.caseStudy.stages.4.image": "studio-onair.jpg",
+  "selectedWork.projects.1.episodes.0.thumb": "episode-panel.jpg",
+  "selectedWork.projects.1.episodes.0.videoUrl": "episode-panel.mp4",
+  "selectedWork.projects.1.episodes.1.thumb": "episode-interview.jpg",
+  "selectedWork.projects.1.episodes.1.videoUrl": "episode-interview.mp4",
+  "selectedWork.projects.1.episodes.2.thumb": "episode-podcast.jpg",
+  "selectedWork.projects.1.episodes.2.videoUrl": "episode-podcast.mp4",
+  "selectedWork.projects.1.episodes.3.thumb": "episode-field.jpg",
+  "selectedWork.projects.1.episodes.3.videoUrl": "episode-field.mp4"
+}

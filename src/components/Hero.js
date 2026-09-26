@@ -75,6 +75,7 @@ export function renderHero(data) {
                 class="play-action-btn" 
                 id="hero-play-trigger"
                 data-video-type="hero_showreel"
+                data-video-url="${hero.media.videoUrl || ''}"
                 data-title="Yuri Skvirski — Production Direction Reel"
                 aria-label="Play 15-second production reel preview"
               >

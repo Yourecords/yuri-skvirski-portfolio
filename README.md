@@ -155,3 +155,7 @@ Show Reel Project/
         ├── VideoModal.js        # 16:9 lightbox player
         └── DevGuideOverlay.js   # Switchable development guidance toggle
 ```
+
+## Google Drive media library
+
+You can keep photos and video exports in a private Google Drive folder and sync selected files into the website at build time. See [setup and upload instructions](docs/google-drive-media.md). This requires Node.js 22+ and build-time Google credentials. Uploading to Drive takes effect after a rebuild/redeploy.
